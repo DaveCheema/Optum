@@ -89,14 +89,6 @@ az resource lock create `
 	--resource-type Microsoft.Storage/storageAccounts `
 	--subscription $subscription; 
 
-#Get storage account id.
-$storage_account_id=$(az resource show `
-    --name $storage_acct_name `
-    --resource-group $resource_group `
-    --resource-type Microsoft.Storage/storageAccounts `
-    --query id `
-    --output tsv);
-
 #Prevent user from using Shared Access Key.
 az resource update `
 	--ids $storage_account_id `
