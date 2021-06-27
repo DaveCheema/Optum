@@ -1,0 +1,1212 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "SnowflakeTestFile.csv",
+				"container": "input"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "ENTERPRISE_ID",
+				"type": "String"
+			},
+			{
+				"name": "CONTRACT_NUMBER",
+				"type": "String"
+			},
+			{
+				"name": "MEMBER_EFFECTIVE_DATE",
+				"type": "String"
+			},
+			{
+				"name": "MEMBER_END_DATE",
+				"type": "String"
+			},
+			{
+				"name": "ENTITY_NAME",
+				"type": "String"
+			},
+			{
+				"name": "ENTITY_ID",
+				"type": "String"
+			},
+			{
+				"name": "UNIQUE_MEMBER_ID",
+				"type": "String"
+			},
+			{
+				"name": "SUBSCRIBER_NUMBER",
+				"type": "String"
+			},
+			{
+				"name": "MEMBER_SOURCE_SYSTEM",
+				"type": "String"
+			},
+			{
+				"name": "CLAIM_HEADER_ID",
+				"type": "String"
+			},
+			{
+				"name": "CLAIM_LINE_ID",
+				"type": "String"
+			},
+			{
+				"name": "MEDICAL_CLAIM_SOURCE_SYSTEM",
+				"type": "String"
+			},
+			{
+				"name": "SUBSCRIBER_ID",
+				"type": "String"
+			},
+			{
+				"name": "COVERAGE_CLASS_CODE",
+				"type": "String"
+			},
+			{
+				"name": "SERVICING_PROVIDER_ID",
+				"type": "String"
+			},
+			{
+				"name": "PROVIDER_SOURCE_SYSTEM",
+				"type": "String"
+			},
+			{
+				"name": "SERVICING_PROVIDER_SPECIALTY",
+				"type": "String"
+			},
+			{
+				"name": "SERVICING_STANDARD_PROVIDER_SPECIALTY",
+				"type": "String"
+			},
+			{
+				"name": "SERVICING_PROVIDER_TYPE_CODE",
+				"type": "String"
+			},
+			{
+				"name": "REFERRING_PROVIDER_ID",
+				"type": "String"
+			},
+			{
+				"name": "ADMITTING_PROVIDER_ID",
+				"type": "String"
+			},
+			{
+				"name": "ATTENDING_PROVIDER_ID",
+				"type": "String"
+			},
+			{
+				"name": "OPERATING_PROVIDER_ID",
+				"type": "String"
+			},
+			{
+				"name": "BILLING_PROVIDER_ID",
+				"type": "String"
+			},
+			{
+				"name": "ORDERING_PROVIDER_ID",
+				"type": "String"
+			},
+			{
+				"name": "HEALTH_PLAN_SOURCE_ID",
+				"type": "String"
+			},
+			{
+				"name": "HEALTH_PLAN_PAYER_NAME",
+				"type": "String"
+			},
+			{
+				"name": "BUSINESS_UNIT",
+				"type": "String"
+			},
+			{
+				"name": "OPERATING_UNIT",
+				"type": "String"
+			},
+			{
+				"name": "PRODUCT",
+				"type": "String"
+			},
+			{
+				"name": "MARKET",
+				"type": "String"
+			},
+			{
+				"name": "DEPARTMENT",
+				"type": "String"
+			},
+			{
+				"name": "IPA",
+				"type": "String"
+			},
+			{
+				"name": "SUPPLEMENTAL_DATA_TYPE",
+				"type": "String"
+			},
+			{
+				"name": "PSEUDO_CLAIM_FLAG",
+				"type": "String"
+			},
+			{
+				"name": "CLAIM_STATUS",
+				"type": "String"
+			},
+			{
+				"name": "CLAIM_LINE_STATUS",
+				"type": "String"
+			},
+			{
+				"name": "CLAIM_DENIED_FLAG",
+				"type": "String"
+			},
+			{
+				"name": "SERVICE_LINE_DENIED_FLAG",
+				"type": "String"
+			},
+			{
+				"name": "DENIED_REASON_CODE",
+				"type": "String"
+			},
+			{
+				"name": "SERVICE_LINE_DENIED_REASON_CODE",
+				"type": "String"
+			},
+			{
+				"name": "DAYS_DENIED",
+				"type": "String"
+			},
+			{
+				"name": "DIAGNOSIS_DATE",
+				"type": "String"
+			},
+			{
+				"name": "SERVICE_DATE",
+				"type": "String"
+			},
+			{
+				"name": "SERVICE_FROM_DATE",
+				"type": "String"
+			},
+			{
+				"name": "SERVICE_TO_DATE",
+				"type": "String"
+			},
+			{
+				"name": "ADMIT_DATE",
+				"type": "String"
+			},
+			{
+				"name": "ADMIT_TYPE",
+				"type": "String"
+			},
+			{
+				"name": "ADMIT_SOURCE_TYPE",
+				"type": "String"
+			},
+			{
+				"name": "DISCHARGE_DATE",
+				"type": "String"
+			},
+			{
+				"name": "DISCHARGE_STATUS_CODE",
+				"type": "String"
+			},
+			{
+				"name": "SERVICE_LINE_TYPE_OF_SERVICE",
+				"type": "String"
+			},
+			{
+				"name": "TYPE_OF_BILL_CODE",
+				"type": "String"
+			},
+			{
+				"name": "INPATIENT_FLAG",
+				"type": "String"
+			},
+			{
+				"name": "PLACE_OF_SERVICE_CODE",
+				"type": "String"
+			},
+			{
+				"name": "FACILITY_CODE",
+				"type": "String"
+			},
+			{
+				"name": "AUTHORIZATION_NUMBER",
+				"type": "String"
+			},
+			{
+				"name": "CLAIM_REFERRAL_NUMBER",
+				"type": "String"
+			},
+			{
+				"name": "CLAIM_TYPE",
+				"type": "String"
+			},
+			{
+				"name": "CLAIM_ADJUSTMENT_TYPE",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_1",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_1",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_2",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_2",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_3",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_3",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_4",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_4",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_5",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_5",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_6",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_6",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_7",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_7",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_8",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_8",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_9",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_9",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_10",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_10",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_11",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_11",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_12",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_12",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_13",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_13",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_14",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_14",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_15",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_15",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_16",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_16",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_17",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_17",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_18",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_18",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_19",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_19",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_20",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_20",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_21",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_21",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_22",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_22",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_23",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_23",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_24",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_24",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_25",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_25",
+				"type": "String"
+			},
+			{
+				"name": "QUANTITY_OF_SERVICES",
+				"type": "String"
+			},
+			{
+				"name": "REVENUE_CODE",
+				"type": "String"
+			},
+			{
+				"name": "PROCEDURE_CODE",
+				"type": "String"
+			},
+			{
+				"name": "PROCEDURE_CODE_MODIFIER_1",
+				"type": "String"
+			},
+			{
+				"name": "PROCEDURE_CODE_MODIFIER_2",
+				"type": "String"
+			},
+			{
+				"name": "PROCEDURE_CODE_MODIFIER_3",
+				"type": "String"
+			},
+			{
+				"name": "PROCEDURE_CODE_MODIFIER_4",
+				"type": "String"
+			},
+			{
+				"name": "ICD_VERSION_CODE_TYPE",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_CODE_1",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_CODE_2",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_CODE_3",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_CODE_4",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_CODE_5",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_CODE_6",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_CODE_7",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_CODE_8",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_CODE_9",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_CODE_10",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_CODE_11",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_CODE_12",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_CODE_13",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_CODE_14",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_CODE_15",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_CODE_16",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_CODE_17",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_CODE_18",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_CODE_19",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_CODE_20",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_CODE_21",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_CODE_22",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_CODE_23",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_CODE_24",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_CODE_25",
+				"type": "String"
+			},
+			{
+				"name": "E_CODE_1",
+				"type": "String"
+			},
+			{
+				"name": "E_CODE_TYPE_1",
+				"type": "String"
+			},
+			{
+				"name": "E_CODE_2",
+				"type": "String"
+			},
+			{
+				"name": "E_CODE_TYPE_2",
+				"type": "String"
+			},
+			{
+				"name": "E_CODE_3",
+				"type": "String"
+			},
+			{
+				"name": "E_CODE_TYPE_3",
+				"type": "String"
+			},
+			{
+				"name": "EMERGENCY_FLAG",
+				"type": "String"
+			},
+			{
+				"name": "HOSPITAL_RELATED_FLAG",
+				"type": "String"
+			},
+			{
+				"name": "OUTSIDE_LABS_FLAG",
+				"type": "String"
+			},
+			{
+				"name": "PPS_CODE",
+				"type": "String"
+			},
+			{
+				"name": "NATIONAL_DRUG_CODE",
+				"type": "String"
+			},
+			{
+				"name": "VALUE_AMOUNT",
+				"type": "String"
+			},
+			{
+				"name": "CAPITATED_SERVICE_FLAG",
+				"type": "String"
+			},
+			{
+				"name": "NETWORK_STATUS_FLAG",
+				"type": "String"
+			},
+			{
+				"name": "ADJUDICATED_DATE",
+				"type": "String"
+			},
+			{
+				"name": "LEDGER_PAID_DATE",
+				"type": "String"
+			},
+			{
+				"name": "ENTERED_DATE",
+				"type": "String"
+			},
+			{
+				"name": "SUBMITTED_DATE",
+				"type": "String"
+			},
+			{
+				"name": "PAYMENT_PROCESS_DATE",
+				"type": "String"
+			},
+			{
+				"name": "PAYMENT_AMOUNT",
+				"type": "String"
+			},
+			{
+				"name": "REQUESTED_AMOUNT",
+				"type": "String"
+			},
+			{
+				"name": "ALLOWED_AMOUNT",
+				"type": "String"
+			},
+			{
+				"name": "COPAY_AMOUNT",
+				"type": "String"
+			},
+			{
+				"name": "COINSURANCE_AMOUNT",
+				"type": "String"
+			},
+			{
+				"name": "DEDUCTIBLE_AMOUNT",
+				"type": "String"
+			},
+			{
+				"name": "PATIENT_LIABILITY_AMOUNT",
+				"type": "String"
+			},
+			{
+				"name": "COORDINATION_OF_BENEFITS_AMOUNT",
+				"type": "String"
+			},
+			{
+				"name": "FEE_FOR_SERVICE_AMOUNT",
+				"type": "String"
+			},
+			{
+				"name": "WITHHOLD_AMOUNT",
+				"type": "String"
+			},
+			{
+				"name": "CAPITATION_AMOUNT",
+				"type": "String"
+			},
+			{
+				"name": "DISCOUNTED_AMOUNT",
+				"type": "String"
+			},
+			{
+				"name": "DRG_GROUPER_PAID",
+				"type": "String"
+			},
+			{
+				"name": "DRG_CODE_PAID",
+				"type": "String"
+			},
+			{
+				"name": "DRG_GROUPER_VERSION_PAID",
+				"type": "String"
+			},
+			{
+				"name": "DRG_SEVERITY_LEVEL_PAID",
+				"type": "String"
+			},
+			{
+				"name": "DRG_OUTLIER_PAID",
+				"type": "String"
+			},
+			{
+				"name": "DRG_GROUPER_BILLED",
+				"type": "String"
+			},
+			{
+				"name": "DRG_CODE_BILLED",
+				"type": "String"
+			},
+			{
+				"name": "DRG_GROUPER_VERSION_BILLED",
+				"type": "String"
+			},
+			{
+				"name": "DRG_SEVERITY_LEVEL_BILLED",
+				"type": "String"
+			},
+			{
+				"name": "DRG_OUTLIER_BILLED",
+				"type": "String"
+			},
+			{
+				"name": "MED_CLAIM_USER_DEFINED_1",
+				"type": "String"
+			},
+			{
+				"name": "MED_CLAIM_USER_DEFINED_2",
+				"type": "String"
+			},
+			{
+				"name": "MED_CLAIM_USER_DEFINED_3",
+				"type": "String"
+			},
+			{
+				"name": "RECORD_STATUS",
+				"type": "String"
+			},
+			{
+				"name": "RECORD_EFFECTIVE_START_DATE",
+				"type": "String"
+			},
+			{
+				"name": "RECORD_EFFECTIVE_END_DATE",
+				"type": "String"
+			},
+			{
+				"name": "ADMITTING_DIAGNOSIS_CODE",
+				"type": "String"
+			},
+			{
+				"name": "CPT_II_CODE",
+				"type": "String"
+			},
+			{
+				"name": "ORIGINAL_CLAIM_NUMBER",
+				"type": "String"
+			},
+			{
+				"name": "SERVICING_SOURCE_PROVIDER_ID",
+				"type": "String"
+			},
+			{
+				"name": "HEDIS_FLAG",
+				"type": "String"
+			},
+			{
+				"name": "ORIGINAL_SOURCE_ID",
+				"type": "String"
+			},
+			{
+				"name": "ORIGINAL_SOURCE",
+				"type": "String"
+			},
+			{
+				"name": "CLAIM_OR_ENCOUNTER_IDENTIFIER",
+				"type": "String"
+			},
+			{
+				"name": "CLAIM_DRG_AMOUNT",
+				"type": "String"
+			},
+			{
+				"name": "PRODUCT_OR_SERVICE_ID_QUALIFIER",
+				"type": "String"
+			},
+			{
+				"name": "UNIT_OR_BASIS_FOR_MEASUREMENT_CODE",
+				"type": "String"
+			},
+			{
+				"name": "DIAGNOSIS_CODE_POINTER",
+				"type": "String"
+			},
+			{
+				"name": "CO_PAY_STATUS_CODE",
+				"type": "String"
+			},
+			{
+				"name": "PATIENT_ACCOUNT_NUMBER",
+				"type": "String"
+			},
+			{
+				"name": "DELAY_REASON_CODE",
+				"type": "String"
+			},
+			{
+				"name": "ADJUSTMENT_REASON_CODE",
+				"type": "String"
+			},
+			{
+				"name": "ADJUSTMENT_AMOUNT",
+				"type": "String"
+			},
+			{
+				"name": "ADJUSTMENT_QUANTITY",
+				"type": "String"
+			},
+			{
+				"name": "PRICING_METHODOLOGY",
+				"type": "String"
+			},
+			{
+				"name": "REPRICED_SAVING_AMOUNT",
+				"type": "String"
+			},
+			{
+				"name": "REPRICING_ORGANIZATION_IDENTIFIER",
+				"type": "String"
+			},
+			{
+				"name": "REPRICING_PER_DIEM_OR_FLAT_RATE_AMOUNT",
+				"type": "String"
+			},
+			{
+				"name": "REPRICED_APPROVED_AMBULATORY_PATIENT_GROUP_CODE",
+				"type": "String"
+			},
+			{
+				"name": "REPRICED_APPROVED_AMBULATORY_PATIENT_GROUP_AMOUNT",
+				"type": "String"
+			},
+			{
+				"name": "REJECT_REASON_CODE",
+				"type": "String"
+			},
+			{
+				"name": "AMOUNT_QUALIFER_CODE",
+				"type": "String"
+			},
+			{
+				"name": "DATE_TIME_QUALIFIER",
+				"type": "String"
+			},
+			{
+				"name": "BILLING_PROVIDER_TAX_IDENTIFICATION_NUMBER",
+				"type": "String"
+			},
+			{
+				"name": "CONTRACT_TYPE_CODE",
+				"type": "String"
+			},
+			{
+				"name": "CONTRACT_AMOUNT",
+				"type": "String"
+			},
+			{
+				"name": "CONTRACT_PERCENTAGE",
+				"type": "String"
+			},
+			{
+				"name": "CONTRACT_CODE",
+				"type": "String"
+			},
+			{
+				"name": "DIAGNOSIS_TYPE_CODE_PRINCIPAL",
+				"type": "String"
+			},
+			{
+				"name": "DIAGNOSIS_TYPE_CODE",
+				"type": "String"
+			},
+			{
+				"name": "PATIENT_REASON_FOR_VISIT",
+				"type": "String"
+			},
+			{
+				"name": "PRINCIPAL_PROCEDURE_QUALIFIER_CODE",
+				"type": "String"
+			},
+			{
+				"name": "PRINCIPAL_PROCEDURE_CODE",
+				"type": "String"
+			},
+			{
+				"name": "DATE_TIME_PERIOD",
+				"type": "String"
+			},
+			{
+				"name": "FACILITY_TAX_AMOUNT",
+				"type": "String"
+			},
+			{
+				"name": "THIRD_PARTY_LIABILITY_AMOUNT",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_DATE_1",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_DATE_2",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_DATE_3",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_DATE_4",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_DATE_5",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_DATE_6",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_DATE_7",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_DATE_8",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_DATE_9",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_DATE_10",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_DATE_11",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_DATE_12",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_DATE_13",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_DATE_14",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_DATE_15",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_DATE_16",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_DATE_17",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_DATE_18",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_DATE_19",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_DATE_20",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_DATE_21",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_DATE_22",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_DATE_23",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_DATE_24",
+				"type": "String"
+			},
+			{
+				"name": "ICD_PROCEDURE_DATE_25",
+				"type": "String"
+			},
+			{
+				"name": "ETL_STG_REC_NBR",
+				"type": "String"
+			},
+			{
+				"name": "BTCH_NBR",
+				"type": "String"
+			},
+			{
+				"name": "ETL_CRC",
+				"type": "String"
+			},
+			{
+				"name": "CREAT_USER_ID",
+				"type": "String"
+			},
+			{
+				"name": "UPDT_USER_ID",
+				"type": "String"
+			},
+			{
+				"name": "AUD_CREAT_DT",
+				"type": "String"
+			},
+			{
+				"name": "AUD_UPDT_DT",
+				"type": "String"
+			},
+			{
+				"name": "SUB_AUDIT_NUMBER",
+				"type": "String"
+			},
+			{
+				"name": "CLAIM_SEQ_NO",
+				"type": "String"
+			},
+			{
+				"name": "BATCH_ID",
+				"type": "String"
+			},
+			{
+				"name": "CLAIM_LINE_VERSION",
+				"type": "String"
+			},
+			{
+				"name": "STATISTICAL_IND",
+				"type": "String"
+			},
+			{
+				"name": "CLAIM_SERVICE_TYPE",
+				"type": "String"
+			},
+			{
+				"name": "MED_DEF_CODE",
+				"type": "String"
+			},
+			{
+				"name": "SERVICE_PROV_TYPE_CD",
+				"type": "String"
+			},
+			{
+				"name": "REFERAL_TYPE_DESC",
+				"type": "String"
+			},
+			{
+				"name": "ACCOUNT_NUM",
+				"type": "String"
+			},
+			{
+				"name": "PATIENT_TYPE",
+				"type": "String"
+			},
+			{
+				"name": "BILLING_AREA_CD",
+				"type": "String"
+			},
+			{
+				"name": "IS_CLAIMTYPE",
+				"type": "String"
+			},
+			{
+				"name": "CLM_RISK_TYPE",
+				"type": "String"
+			},
+			{
+				"name": "RISK_CLASS",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_26",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_26",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_27",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_27",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_28",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_28",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_29",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_29",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_30",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_30",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_31",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_31",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_32",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_32",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_33",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_33",
+				"type": "String"
+			},
+			{
+				"name": "ICD_DIAGNOSIS_CODE_34",
+				"type": "String"
+			},
+			{
+				"name": "PRESENT_ON_ADMISSION_FLAG_34",
+				"type": "String"
+			},
+			{
+				"name": "ENTITY",
+				"type": "String"
+			},
+			{
+				"name": "DATE",
+				"type": "String"
+			}
+		]
+	}
+}
