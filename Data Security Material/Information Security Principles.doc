@@ -1,0 +1,1030 @@
+Message-ID: <1653944790.503.1522585781254.JavaMail.confluence@3c8fb7e9cea7>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_502_740609631.1522585781254"
+
+------=_Part_502_740609631.1522585781254
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Information Security Principles</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Information Security Principles</h1>
+    <div class=3D"Section1">
+        <div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1=
+px;">
+<div class=3D"panelContent">=20
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:60%;min-width:60%;max-width:60%;"=
+>
+<p><span class=3D"confluence-embedded-file-wrapper confluence-embedded-manu=
+al-size"><img class=3D"confluence-embedded-image" width=3D"468" src=3D"fbaf=
+fc6572c458f397e43d9c01026b59" data-image-src=3D"https://jmfamily.atlassian.=
+net/wiki/download/attachments/188252253/image2018-1-29_15-17-42.png?version=
+=3D1&amp;modificationDate=3D1517257063542&amp;cacheVersion=3D1&amp;api=3Dv2=
+" data-unresolved-comment-count=3D"0" data-linked-resource-id=3D"192315522"=
+ data-linked-resource-version=3D"1" data-linked-resource-type=3D"attachment=
+" data-linked-resource-default-alias=3D"image2018-1-29_15-17-42.png" data-b=
+ase-url=3D"https://jmfamily.atlassian.net/wiki" data-linked-resource-conten=
+t-type=3D"image/png" data-linked-resource-container-id=3D"188252253" data-l=
+inked-resource-container-version=3D"2" data-media-id=3D"647813c4-673f-440d-=
+adae-1d70ebd90419" data-media-type=3D"file" height=3D"270"></span></p>
+</div>
+<div class=3D"columnMacro" style=3D"width:40%;min-width:40%;max-width:40%;"=
+>
+<p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1522585780997 {padding: 0px;}
+div.rbtoc1522585780997 ul {list-style: disc;margin-left: 0px;}
+div.rbtoc1522585780997 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1522585780997">=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#InformationSecurityPrinciples-InformationWillBeSecure">Info=
+rmation Will Be Secure</a>=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#InformationSecurityPrinciples-PrimacyofSecurityPrinciples">=
+Primacy of Security Principles&nbsp;</a></li>=20
+<li><a href=3D"#InformationSecurityPrinciples-ProtectConfidentialityofData"=
+>Protect Confidentiality of Data&nbsp;</a></li>=20
+<li><a href=3D"#InformationSecurityPrinciples-ProtectDataIntegrity">Protect=
+ Data Integrity&nbsp;</a>=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#InformationSecurityPrinciples-Traceability">Traceability</a=
+></li>=20
+<li><a href=3D"#InformationSecurityPrinciples-LeastPrivilege">Least Privile=
+ge</a></li>=20
+<li><a href=3D"#InformationSecurityPrinciples-ZeroTrust">Zero Trust</a></li=
+>=20
+<li><a href=3D"#InformationSecurityPrinciples-AdheretoCurrentSecurityStanda=
+rdsandBestPractices">Adhere to Current Security Standards and Best Practice=
+s&nbsp;</a></li>=20
+<li><a href=3D"#InformationSecurityPrinciples-DefenseinDepth">Defense in De=
+pth</a></li>=20
+<li><a href=3D"#InformationSecurityPrinciples-OnlySupportCurrentandSecureTe=
+chnologies">Only Support Current and Secure Technologies</a></li>=20
+</ul> </li>=20
+</ul> </li>=20
+</ul>=20
+</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>=20
+</div>
+</div>
+<h1 class=3D"auto-cursor-target" id=3D"InformationSecurityPrinciples-Inform=
+ationWillBeSecure">Information Will Be Secure</h1>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Information Will Be Secure&nbsp;</strong></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><p=
+><span>Information and information systems will be protected from unauthori=
+zed access, use, disclosure, disruption, modification, or destruction. We w=
+ill ensure that data or an information system is accessed only by an author=
+ized person. We will ensure that the data or information system can be trus=
+ted by ensuring that it is changed only by an authorized person and that it=
+ remains in its original state when at rest. We will ensure that data and i=
+nformation systems are available when required.</span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">
+<ul>
+<li><span>JMFE must respect the law, fulfill contractual obligations and pr=
+otect the value of its information assets</span></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>Policies and procedures will need to be defined to classify data =
+according to its level of confidentiality</span></li>
+<li><span>Policies and procedures will need to be put in place to define th=
+e access rights of an individual or role</span></li>
+<li><span>To provide appropriate access to open information yet maintain se=
+curity, the security restrictions must be identified and implemented at the=
+ data level, not at the application level</span></li>
+<li><span>Security must be planned in data elements from the beginning, rat=
+her than added later</span></li>
+<li><span>Systems, data, and technologies must be protected against unautho=
+rized access and handling</span></li>
+<li><span>The source of information must be protected against unauthorized =
+or accidental modifications, fraud, catastrophes, or disclosure</span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+<h2 class=3D"auto-cursor-target" id=3D"InformationSecurityPrinciples-Primac=
+yofSecurityPrinciples"><span style=3D"color: rgb(255,255,255);">Primacy of =
+Security Principles&nbsp;</span></h2>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey">Primacy of Security Principles&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><p=
+><span>Security principles will not be compromised for the sake of other pr=
+inciples. </span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey"><p=
+><span>Solutions are only as secure as their weakest elements. The inherent=
+ security requirements of a project should not be altered in favor of any o=
+ther requirement, including re-use of other services and functions already =
+in place. </span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>Security requirements should be collected and documented prior to=
+ product or design selection</span></li>
+<li><span>Products and technologies included in a solution must meet all re=
+levant security requirements and patterns</span></li>
+<li><span>Some designs will require scope changes to meet security requirem=
+ents</span></li>
+<li><span>Data security must be maintained from end-to-end</span></li>
+<li><span>New solutions must not depend on current, but less secure technol=
+ogies if doing so will compromise the security requirements of the project<=
+/span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+<h2 class=3D"auto-cursor-target" id=3D"InformationSecurityPrinciples-Protec=
+tConfidentialityofData"><span style=3D"color: rgb(255,255,255);">Protect Co=
+nfidentiality of Data&nbsp;</span></h2>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey">Protect Confidentiality of Data&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><p=
+><span>We will restrict access to information to only authorized individual=
+s.</span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">
+<ul>
+<li><span>JMFE must respect the law, fulfill contractual obligations and pr=
+otect the value of its information assets</span></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>Policies and procedures will need to be defined to classify data =
+according to its level of confidentiality</span></li>
+<li><span>Policies and procedures will need to be put in place to define th=
+e access rights of an individual or role</span></li>
+<li><span>To provide appropriate access to open information yet maintain se=
+curity, the security restrictions must be identified and implemented at the=
+ data level, not at the application level</span></li>
+<li><span>Security must be planned in data elements from the beginning, rat=
+her than added later</span></li>
+<li><span>Systems, data, and technologies must be protected against unautho=
+rized access and handling</span></li>
+<li><span>The source of information must be protected against unauthorized =
+or accidental modifications, fraud, catastrophes, or disclosure</span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+<h2 class=3D"auto-cursor-target" id=3D"InformationSecurityPrinciples-Protec=
+tDataIntegrity"><span style=3D"color: rgb(255,255,255);">Protect Data Integ=
+rity&nbsp;</span></h2>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey">Protect Data Integrity&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><p=
+><span>We will ensure that data is modified only by authorized persons or p=
+rocesses and remains unmodified while at rest. Unauthorized attempts to mod=
+ify data will be detected and appropriate responses will be taken.</span></=
+p></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">
+<ul>
+<li><span>Reliable information is essential to the effective execution of b=
+usiness processes</span></li>
+<li><span>Authenticity is assurance that a message, transaction, or other e=
+xchange of information is from the source it claims to be from. Authenticit=
+y involves proof of identity</span></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>Mechanisms will need to be put in place to ensure the </span><str=
+ong>authenticity </strong><span>of a message, transaction or other exchange=
+ of information. This involves proof of identity implemented through </span=
+><strong>authentication</strong></li>
+<li><span>Mechanisms will need to be put in place to ensure the </span><str=
+ong>incontestability</strong><span> of a message, transaction or other exch=
+ange of information.</span></li>
+<li><span>Mechanisms will need to be put in place to ensure that a person i=
+s </span><strong>authorized</strong><span> to perform the requested modific=
+ation of data</span></li>
+<li><span>Mechanisms will need to be put in place to protect data in motion=
+ and data at rest from unauthorized modification</span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+<h3 class=3D"auto-cursor-target" id=3D"InformationSecurityPrinciples-Tracea=
+bility"><span style=3D"color: rgb(255,255,255);">Traceability</span></h3>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey">Protect Data Integrity&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><p=
+><span>We will log the detailed actions performed by an individual or appli=
+cation with a level of detail sufficient to support &nbsp;the audit functio=
+n. We will implement audit mechanisms to detect unauthorized use and to sup=
+port incident investigations.</span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">
+<ul>
+<li><span>Traceability is ensured by providing a detailed log of the action=
+s done by a user who can be held responsible </span></li>
+<li><span>Organizations should monitor, record, and periodically review aud=
+it logs to identify unauthorized use and to ensure system resources are fun=
+ctioning properly</span></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>Every action taken by an individual or application will need to b=
+e logged</span></li>
+<li><span>Guidelines will need to be developed for the detail required in t=
+he logs</span></li>
+<li><span>Every invocation from one service to another across a network bou=
+ndary will need to logged</span></li>
+<li><span>Mechanisms will need to be put in place to periodically review lo=
+gs to detect unauthorized use</span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+<h3 class=3D"auto-cursor-target" id=3D"InformationSecurityPrinciples-LeastP=
+rivilege"><span style=3D"color: rgb(255,255,255);">Least Privilege</span></=
+h3>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey">Least Privilege</td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><p=
+><span>No user or service account should have access to more than it needs =
+to operate effectively</span><span>.</span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey"><p=
+><span><span>Enforcement of this Principle will reduce the risk of insider =
+threats or stolen credentials being leveraged to compromise critical data o=
+r systems.</span></span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>Directory Service groups provide the most scalable way to enforce=
+ Least Privilege</span></li>
+<li><span>Local accounts on devices provide the least control and should be=
+ used only for critical troubleshooting, not as part of the larger design</=
+span></li>
+<li><span>Local database accounts are considered local accounts and should =
+not be utilized and more than required</span></li>
+<li><span>Permission granularity is essential for all designs</span></li>
+<li><span>Role-based access controls enhance the security of any solution</=
+span></li>
+<li><span>User accessible shared credentials should never be part of a desi=
+gn</span></li>
+<li><span>Ensure there is always an audit trail so individual users=E2=80=
+=99 actions can be identified</span></li>
+<li><span>Service accounts should not be shared across applications or data=
+ sets</span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+<h3 class=3D"auto-cursor-target" id=3D"InformationSecurityPrinciples-ZeroTr=
+ust"><span style=3D"color: rgb(255,255,255);">Zero Trust</span></h3>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey">Zero Trust</td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><p=
+><span>No system or network can be considered safe, so they should not be t=
+rusted.</span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey"><p=
+><span>The Zero-Trust model starts highly secure and remains secure as long=
+ as future changes follow the same model. Encryption is used universally an=
+d connectivity becomes point-to-point. This model is highly resistant to in=
+trusion and makes large scale compromises difficult to accomplish.</span></=
+p></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>Connectivity between components should be point-to-point</span></=
+li>
+<li><span>Do not design solutions dependent on wide-open connections for su=
+pport</span></li>
+<li><span>Limit interconnections between elements of a solution to just tho=
+se that are necessary for the solution to function</span></li>
+<li><span>There should be no unencrypted pages, consoles or interconnection=
+s in any design</span></li>
+<li><span>Know and document what connections are necessary and what ports a=
+re required for all parts of the design</span></li>
+<li><span>Service accounts should not be shared across applications or data=
+ sets</span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+<h3 class=3D"auto-cursor-target" id=3D"InformationSecurityPrinciples-Adhere=
+toCurrentSecurityStandardsandBestPractices"><span style=3D"color: rgb(255,2=
+55,255);">Adhere to Current Security Standards and Best Practices&nbsp;</sp=
+an></h3>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey">Adhere to Current Security Standards and Best Practices&nbsp;</=
+td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><p=
+><span>Designs should always incorporate the latest security standards and =
+best practices.</span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey"><p=
+><span>Solutions that follow established JMFE security standards will be mo=
+re secure and supportable. When no JMFE standard is available, the best pra=
+ctices defined by the information security industry should be adhered to in=
+stead.</span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>Be sure to review all relevant technological standards before beg=
+inning a design</span></li>
+<li><span>When no official standard exists, consult Information Security ab=
+out which industry best practices to follow</span></li>
+<li><span>Document the standards and practices that are to be followed</spa=
+n></li>
+<li><span>Design adaptable solutions capable of moving to new standards whe=
+n possible</span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+<h3 class=3D"auto-cursor-target" id=3D"InformationSecurityPrinciples-Defens=
+einDepth"><span style=3D"color: rgb(255,255,255);">Defense in Depth</span><=
+/h3>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey">Defense in Depth</td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><p=
+><span>There are threat vectors at all levels, so all levels must be protec=
+ted</span><span>.</span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey"><p=
+><span>Solutions designed with security at all layers makes the system more=
+ difficult to exploit and mitigates the risk of a data breach, successful d=
+enial of service or intrusion into the JMFE network. </span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>A documented risk assessment should be performed at all layers of=
+ the solution to identify and mitigate as many threat vectors as possible</=
+span></li>
+<li><span>Multiple security mechanisms will be needed to provide the best p=
+rotection</span></li>
+<li><span>Design flexible solutions able to follow the latest security stan=
+dards and practices</span></li>
+<li><span>Protecting the data remains the first priority</span></li>
+<li><span>Encrypt data in motion and at rest when required</span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+<h3 class=3D"auto-cursor-target" id=3D"InformationSecurityPrinciples-OnlySu=
+pportCurrentandSecureTechnologies"><span style=3D"color: rgb(255,255,255);"=
+>Only Support Current and Secure Technologies</span></h3>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey">Only Support Current and Secure Technologies</td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><p=
+><span>Technologies that are known to be insecure or close to end-of-life c=
+an pose significant security risks.</span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey"><p=
+><span>Using current and secure technologies results in systems that are mo=
+re resilient and secure over the long-term and often easier to maintain. Th=
+e life-cycle maintenance plan of a solution should allow for updating all o=
+f the technological components. Using technologies that cannot be updated c=
+an lead to significant security risks over the life of the solution</span><=
+span>. </span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>Do not reuse older technologies that could become obsolete before=
+ the solution they support does</span></li>
+<li><span>Avoid reliance on specific versions of a technology whenever poss=
+ible</span></li>
+<li><span>Review all the technological components of a design for known sec=
+urity risks</span></li>
+<li><span>Allow for regular updates to the supporting technologies to accou=
+nt for newly discovered risks</span></li>
+<li><span>Do not use technologies that cannot support JMFE=E2=80=99s standa=
+rds</span></li>
+<li><span>Design solutions that do not depend on obsolete backend technolog=
+ies even if it means creating a new backend</span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_502_740609631.1522585781254
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/fbaffc6572c458f397e43d9c01026b59
+
+iVBORw0KGgoAAAANSUhEUgAAAbEAAAD6CAMAAAAY5omYAAADAFBMVEX+/v4BlqYtqLXM6ewXorFV
+usaX1Nq05Otrw80AjqCLys/9267W9PlLsroBi5z669Wu1tVlvsg0tspJqrJtuLiM2eir3ONTxdbr
+6+b9zpGU5PLJ2dR11ucnm6jT49r+0Zmpysj+4Lv+8N0UqsQrrcOOw7y48fo5sbwTs8lrzORoq7MJ
+kp2OubtcxuGHvMJ20dxX0uM2w9V7wbwom5qkyb1HnahBrMfJ3uMAe5R+5PH8vm5MpJpNvuGQyuGg
+u7y54N/ItXfEyskAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAACctLjZAAABAHRSTlP/////////////////////////////////////////////
+//////////////////////////////////////////8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+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
+AAAASUVORK5CYII=
+------=_Part_502_740609631.1522585781254--

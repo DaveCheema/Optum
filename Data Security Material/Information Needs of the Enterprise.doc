@@ -1,0 +1,2210 @@
+Message-ID: <1552353849.569.1522586074959.JavaMail.confluence@12539a1d63f9>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_568_1057282080.1522586074959"
+
+------=_Part_568_1057282080.1522586074959
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Information Needs of the Enterprise</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Information Needs of the Enterprise</h1>
+    <div class=3D"Section1">
+        <div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1=
+px;">
+<div class=3D"panelContent">=20
+<div class=3D"sectionColumnWrapper">
+<div class=3D"sectionMacro">
+<div class=3D"sectionMacroRow">
+<div class=3D"columnMacro" style=3D"width:60%;min-width:60%;max-width:60%;"=
+>
+<p><span class=3D"confluence-embedded-file-wrapper confluence-embedded-manu=
+al-size"><img class=3D"confluence-embedded-image" width=3D"468" src=3D"8d5a=
+47d567577769b54f820912548766" data-image-src=3D"https://jmfamily.atlassian.=
+net/wiki/download/attachments/188186689/image2018-1-30_9-39-41.png?version=
+=3D1&amp;modificationDate=3D1517323182731&amp;cacheVersion=3D1&amp;api=3Dv2=
+" data-unresolved-comment-count=3D"0" data-linked-resource-id=3D"197394433"=
+ data-linked-resource-version=3D"1" data-linked-resource-type=3D"attachment=
+" data-linked-resource-default-alias=3D"image2018-1-30_9-39-41.png" data-ba=
+se-url=3D"https://jmfamily.atlassian.net/wiki" data-linked-resource-content=
+-type=3D"image/png" data-linked-resource-container-id=3D"188186689" data-li=
+nked-resource-container-version=3D"4" data-media-id=3D"30f63f31-b239-46e1-a=
+dc3-b580a6954c77" data-media-type=3D"file" height=3D"264"></span></p>
+</div>
+<div class=3D"columnMacro" style=3D"width:40%;min-width:40%;max-width:40%;"=
+>
+<p><style type=3D"text/css">/*<![CDATA[*/
+div.rbtoc1522586074588 {padding: 0px;}
+div.rbtoc1522586074588 ul {list-style: disc;margin-left: 0px;}
+div.rbtoc1522586074588 li {margin-left: 0px;padding-left: 0px;}
+
+/*]]>*/</style></p>
+<div class=3D"toc-macro rbtoc1522586074588">=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#InformationNeedsoftheEnterprise-MeettheInformationNeedsofth=
+eEnterprise">Meet the Information Needs of the Enterprise&nbsp;</a>=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#InformationNeedsoftheEnterprise-DataWillBeAccessible">Data =
+Will Be Accessible</a>=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#InformationNeedsoftheEnterprise-DataisShared">Data is Share=
+d</a></li>=20
+<li><a href=3D"#InformationNeedsoftheEnterprise-CommonTerminologyandDataDef=
+initions">Common Terminology and Data Definitions&nbsp;</a></li>=20
+<li><a href=3D"#InformationNeedsoftheEnterprise-DataWillbeTimely">Data Will=
+ be Timely</a></li>=20
+<li><a href=3D"#InformationNeedsoftheEnterprise-RealTimeIntegrationisPrefer=
+redOverBatch">Real Time Integration is Preferred Over Batch&nbsp;</a></li>=
+=20
+<li><a href=3D"#InformationNeedsoftheEnterprise-SelfService">Self Service</=
+a></li>=20
+<li><a href=3D"#InformationNeedsoftheEnterprise-DataFederationandVirtualiza=
+tion">Data Federation and Virtualization</a></li>=20
+<li><a href=3D"#InformationNeedsoftheEnterprise-DataWillbeTrusted">Data Wil=
+l be Trusted&nbsp;</a></li>=20
+</ul> </li>=20
+<li><a href=3D"#InformationNeedsoftheEnterprise-HighQualityData">High Quali=
+ty Data</a>=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#InformationNeedsoftheEnterprise-DataQualityisOwnedbytheBusi=
+ness">Data Quality is Owned by the Business</a></li>=20
+<li><a href=3D"#InformationNeedsoftheEnterprise-DataWillbeGoverned">Data Wi=
+ll be Governed</a></li>=20
+<li><a href=3D"#InformationNeedsoftheEnterprise-DataConsistencyandIntegrity=
+">Data Consistency and Integrity</a></li>=20
+<li><a href=3D"#InformationNeedsoftheEnterprise-MinimizeDataMovement">Minim=
+ize Data Movement</a></li>=20
+</ul> </li>=20
+<li><a href=3D"#InformationNeedsoftheEnterprise-DataWillbeManaged">Data Wil=
+l be Managed&nbsp;</a>=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#InformationNeedsoftheEnterprise-DataStructures">Data Struct=
+ures</a></li>=20
+<li><a href=3D"#InformationNeedsoftheEnterprise-DataRetention">Data Retenti=
+on</a>=20
+<ul class=3D"toc-indentation">=20
+<li><a href=3D"#InformationNeedsoftheEnterprise-DataArchival">Data Archival=
+</a></li>=20
+</ul> </li>=20
+</ul> </li>=20
+</ul> </li>=20
+</ul>=20
+</div>
+<p></p>
+</div>
+</div>
+</div>
+</div>=20
+</div>
+</div>
+<h1 class=3D"auto-cursor-target" id=3D"InformationNeedsoftheEnterprise-Meet=
+theInformationNeedsoftheEnterprise">Meet the Information Needs of the Enter=
+prise&nbsp;</h1>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Meet the Information Needs of the Enterprise&nbsp;&nbsp=
+;</strong></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>Make the right data accessible to users in the appropriate format=
+</span></li>
+<li><span>Secure the data so that only authorized users have access</span><=
+/li>
+<li><span>Ensure that data has consistent meaning across the enterprise</sp=
+an></li>
+<li><span>Provide high quality data to the enterprise</span></li>
+<li><span>Understand the lineage of data and track who is using it so that =
+it can be audited</span></li>
+<li><span>Meet the information needs of the enterprise in a cost effective =
+manner</span></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">
+<ul>
+<li><span>Almost all aspects of business operations require access to accur=
+ate and timely information</span></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>We will need to implement </span></li>
+<li><span>A system can be suboptimal in the short-term but present optimiza=
+tion gains in the long term</span></li>
+<li><span>Adaptability and flexibility performance metrics must be establis=
+hed</span></li>
+<li><span>The development of applications based on components must be promo=
+ted and facilitated</span></li>
+<li><span>A minimum number of suppliers, products, and configurations must =
+be maintained to allow maximum flexibility when implementing changes</span>=
+</li>
+<li><span>Excessively complex configurations of components, undue customize=
+d tuning, and hardware and software customization based on transient, local=
+, or other conditions must all be avoided</span></li>
+<li><span>The discipline of configuration must be maintained, sacrificing p=
+erformance and functionality in some cases</span></li>
+<li><span>Resource restrictions must be considered</span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+<h2 class=3D"auto-cursor-target" id=3D"InformationNeedsoftheEnterprise-Data=
+WillBeAccessible"><span style=3D"color: rgb(255,255,255);">Data Will Be Acc=
+essible</span></h2>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Data Will Be Accessible&nbsp;&nbsp;</strong></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><p=
+><span>We will ensure that business users have access to the data they requ=
+ire to execute their business processes, when they need it, and in the form=
+at most appropriate for their consumption, regardless of their physical loc=
+ation.</span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">
+<ul>
+<li><span>Almost all aspects of business operations require access to accur=
+ate and timely information</span></li>
+<li><span>That information must be timely in order for business processes t=
+o execute effectively</span></li>
+<li><span>Data will need to be presented in different ways depending of the=
+ role of the person in the organization</span></li>
+<li><span>People with different skills levels consume information in differ=
+ent ways</span></li>
+<li><span>Some roles require access to raw data while other roles require o=
+nly aggregated data </span></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>We will need to have information access policies in place to ensu=
+re that individuals have access to the information they require</span></li>
+<li><span>We will promote the sharing of data so that individuals don=E2=80=
+=99t have to recreate data that already exists in the organization</span></=
+li>
+<li><span>We will need to support access to data through a variety of devic=
+es</span></li>
+<li><span>We will need to support different visualization techniques to pre=
+sent information in the most appropriate manner for the intended use and au=
+dience</span></li>
+<li><span>We will need to build data integrations in a manner that supports=
+ the timeliness requirements of business processes</span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+<h4 class=3D"auto-cursor-target" id=3D"InformationNeedsoftheEnterprise-Data=
+isShared"><span style=3D"color: rgb(255,255,255);">Data is Shared</span></h=
+4>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Data is Shared&nbsp;</strong></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><p=
+><span>Users have access to information that is necessary for performance o=
+f their respective tasks. Therefore, information is shared between differen=
+t corporate areas and positions, depending on the security levels establish=
+ed for that particular set of information.</span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">
+<ul>
+<li><span>Necessary access to accurate information is essential to improve =
+the quality and efficiency of the decision-making process</span></li>
+<li><span>It is less costly to maintain timely, accurate data in a single a=
+pplication, and then share it, than it is to maintain duplicative data in m=
+ultiple applications</span></li>
+<li><span>Shared data will result in improved decisions and operations sinc=
+e we will rely on fewer (ultimately one virtual) sources of more accurate a=
+nd timely managed data for all of our decision-making</span></li>
+<li><span>Electronically shared data will result in increased efficiency wh=
+en existing data entities can be used, without re-keying, to create new ent=
+ities</span></li>
+<li><span>Shared information promotes better decisions because they are les=
+s dependent of less-reliable sources and information managed in the decisio=
+n-making process</span></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>To enable information sharing, a common set of policies, procedur=
+es, and standards must be developed and followed to regulate information ma=
+nagement and both short-term and long-term access</span></li>
+<li><span>Normalized data models and metadata that define such shared envir=
+onments must be developed, in addition to a repository to store the metadat=
+a and make it accessible</span></li>
+<li><span>As existing systems are replaced, common information access and d=
+eveloper guidelines must be adopted and implemented to ensure that all info=
+rmation in new applications remains available in the shared environment</sp=
+an></li>
+<li><span>In both short and long-term, common methods and tools to create, =
+maintain, and access shared information must be adopted throughout the comp=
+any.</span></li>
+<li><span>Information sharing implies a significant cultural shift</span></=
+li>
+<li><span>The information-sharing principle is constantly confronted with t=
+he information security principle. Information sharing must not compromise =
+the confidentiality of information under any circumstance</span></li>
+<li><span>Shared information must be used by all collaborators to perform t=
+heir respective tasks. This ensures that only the most up-to-date and accur=
+ate information is used in the decision-making process. Shared information =
+shall become the only virtual source of corporate information</span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+<h4 class=3D"auto-cursor-target" id=3D"InformationNeedsoftheEnterprise-Comm=
+onTerminologyandDataDefinitions"><span style=3D"color: rgb(255,255,255);">C=
+ommon Terminology and Data Definitions&nbsp;</span></h4>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Common Terminology and Data Definitions&nbsp;</strong><=
+/td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><p=
+><span>Data is defined consistently throughout the company, and definitions=
+ are comprehensible and accessible by all users.</span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey"><p=
+><span>The data employed in the development of applications must have a com=
+mon definition so that the data can be shared. A common terminology facilit=
+ates communication and promotes efficient dialogs. Additionally, data and i=
+nterfaces must be shared among different systems.</span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>The company must first establish a common terminology for busines=
+s activities. Such definitions must be uniformly used throughout the compan=
+y</span></li>
+<li><span>Whenever a new data definition is required, efforts regarding suc=
+h definition must be coordinated and reconciled with the corporate data des=
+cription "glossary." The company's data administrator needs to be responsib=
+le for such coordination</span></li>
+<li><span>Ambiguities arising from multiple data definitions must be replac=
+ed by a definition that is accepted and understood by the entire company</s=
+pan></li>
+<li><span>Several data normalization initiatives must be coordinated</span>=
+</li>
+<li><span>Functional data administration responsibilities must be assigned<=
+/span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+<h4 class=3D"auto-cursor-target" id=3D"InformationNeedsoftheEnterprise-Data=
+WillbeTimely"><span style=3D"color: rgb(255,255,255);">Data Will be Timely<=
+/span></h4>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Data Will be Timely</strong></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><p=
+><span>We will make data available to business users with the timeliness re=
+quired for the effective execution of business processes.</span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">
+<ul>
+<li><span>Data timeliness refers to the time expectation for the accessibil=
+ity of data. &nbsp;Timeliness can be measured as the time between when data=
+ is expected and when it is readily available for use</span></li>
+<li><span>All business processes are designed with an expectation of the ti=
+meliness of information. Accurate information an hour from now does not sup=
+port a business process that requires information no more than one minute o=
+ld</span></li>
+<li><span>Increasingly, more near-real-time operational business decisions =
+are required</span></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>This leads to a preference for near-real-time integration of data=
+ over batch</span></li>
+<li><span>We will need to acquire commercial products that provide data fed=
+eration and data virtualization capabilities</span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+<h4 class=3D"auto-cursor-target" id=3D"InformationNeedsoftheEnterprise-Real=
+TimeIntegrationisPreferredOverBatch"><span style=3D"color: rgb(255,255,255)=
+;">Real Time Integration is Preferred Over Batch&nbsp;</span></h4>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey">Real Time Integration is Preferred Over Batch&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><p=
+><span>The use of near real time integration is encouraged unless the busin=
+ess process it supports naturally lends itself to batch processing.</span><=
+/p></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">
+<ul>
+<li><span>Increasing velocity in business processes requires more timely in=
+formation</span></li>
+<li><span>With batch integration, the system is often not in a valid state =
+until the entire batch process is complete</span></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>Will tend to reduce the use of flat files for integration</span><=
+/li>
+<li><span>Will reduce </span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+<h4 class=3D"auto-cursor-target" id=3D"InformationNeedsoftheEnterprise-Self=
+Service"><span style=3D"color: rgb(255,255,255);">Self Service</span></h4>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey">Self Service&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>We will provide business users with the greatest possible access =
+to their data including data in raw form</span></li>
+<li><span>We will enable the business community to create their own visuali=
+zation of data without IT involvement. </span></li>
+<li><span>We will enable the business community to perform data discovery, =
+curation, and transformation without IT involvement. </span></li>
+<li><span>IT will continue to operationalize recurring analytics to ensure =
+performance, reliability and accuracy</span></li>
+<li><span>IT will continue to develop operational reports as required</span=
+></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">
+<ul>
+<li><span>Traditional BI requires IT to create purpose built data marts to =
+support analysis. The deriving of insights from raw data is often a trial-a=
+nd-error process that benefits from experimentation and that experimentatio=
+n should be enabled without involving IT</span></li>
+<li><span>There is a desire to provide faster time to insight. Technologies=
+ such as data virtualization or integration at the BI layer enable business=
+ users to experiment without the time consuming process of aggregating data=
+ in advance</span></li>
+<li><span>The best way to present information for consumption by business u=
+sers is also a trial-and-error process. Business users should have the abil=
+ity to experiment with various forms of visualization until they find the o=
+ptimal solution.</span></li>
+<li><span>Business users are the ones in the best position to understand th=
+e meaning, quality and value of different sources of data and how it should=
+ be aggregated to derive insights </span></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>We will need to invest in tools that enable self-service visualiz=
+ation, analysis, data discovery, data curation, data cleansing, and data tr=
+ansformation</span></li>
+<li><span>We will need improved metadata management that helps business use=
+rs understand the meaning of data</span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+<h4 class=3D"auto-cursor-target" id=3D"InformationNeedsoftheEnterprise-Data=
+FederationandVirtualization"><span style=3D"color: rgb(255,255,255);">Data =
+Federation and Virtualization</span></h4>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey">Data Federation and Virtualization</td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><p=
+><span>Efforts should be made to minimize the movement, preparation, or agg=
+regation of data in anticipation of future use. Where possible, these activ=
+ities should be performed at read time not write time. This principle does =
+not free us from the obligation to meet the SLA requirements articulated by=
+ the business users.</span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">
+<ul>
+<li><span>Creating copies of data affects the timeliness of information</sp=
+an></li>
+<li><span>Creating copies of data may introduce quality problems</span></li=
+>
+<li><span>Data should be obtained closest to the original source. The quali=
+ty of data becomes more suspect the further it is removed from its original=
+ source</span></li>
+<li><span>It is not always possible to anticipate in advance the way data w=
+ill need to be analyzed </span></li>
+<li><span>Commercially available products exist to provide data federation =
+and data virtualization capabilities that make this possible</span></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>We will need to acquire software that provides these capabilities=
+</span></li>
+<li><span>The way we build BI solutions will need to be rethought, relying =
+more on schema-on-read vs schema-on-write</span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+<h4 class=3D"auto-cursor-target" id=3D"InformationNeedsoftheEnterprise-Data=
+WillbeTrusted"><span style=3D"color: rgb(255,255,255);">Data Will be Truste=
+d</span>&nbsp;</h4>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey">Data Will be Trusted&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><p=
+><span>Data will meet data quality standards of accuracy, validity, reliabi=
+lity, timeliness, relevance, completeness and compliance with JMFE regulati=
+ons and statutory obligations.</span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">
+<ul>
+<li><span>Data quality is crucial to operational efficiency and accurate de=
+cisions</span></li>
+<li><span>Data being used by any application or user, should be reliable wh=
+en making organizational decisions</span></li>
+<li><span>Data being used in applications, business Intelligence, should be=
+ complete, accurate and consistent</span></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>Data quality standards will need to be defined by the business</s=
+pan></li>
+<li><span>Processes and procedures will need to be put in place to ensure c=
+ompliance with the standards</span></li>
+<li><span>Appropriate technical solutions will need to be put in place to e=
+nsure adherence to the standards</span></li>
+<li><span>Periodic analysis of the data for compliance with data quality st=
+andards will need to be performed</span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+<h2 class=3D"auto-cursor-target" id=3D"InformationNeedsoftheEnterprise-High=
+QualityData"><span style=3D"color: rgb(255,255,255);">High Quality Data</sp=
+an></h2>
+<h4 class=3D"auto-cursor-target" id=3D"InformationNeedsoftheEnterprise-Data=
+QualityisOwnedbytheBusiness"><span style=3D"color: rgb(255,255,255);">Data =
+Quality is Owned by the Business</span></h4>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey">Data Quality is Owned by the Business&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><p=
+><span>The responsibility for data quality belongs to the business. The bus=
+iness is responsible for defining the appropriate capture, usage, derivatio=
+n and data quality business rules for all governed data elements. The busin=
+ess is also responsible for defining the policies and procedures required t=
+o enforce those business rules. IT will work with the business to implement=
+ those business rules in software where possible. </span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">
+<ul>
+<li><span>It is the business that collects and uses the data, is far closer=
+ to the source, and has a far better understanding of what it means and how=
+ it is going to be used</span></li>
+<li><span>It is the business who is most impacted by data quality</span></l=
+i>
+<li><span>It is the business that has the authority to enforce the policies=
+ and procedures that affect data quality</span></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>Data Owners and Data Stewards will need to be defined to take own=
+ership of the data quality function</span></li>
+<li><span>It will be necessary to define the appropriate capture, usage, de=
+rivation and data quality business rules for all governed data elements</sp=
+an></li>
+<li><span>Data quality standards will need to be defined for accuracy, vali=
+dity, reliability, timeliness, relevance, completeness and compliance with =
+JMFE regulations and statutory obligations</span></li>
+<li><span>Policies and procedures may have to be written regarding the capt=
+ure, validation, dissemination, and use of data</span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+<h4 class=3D"auto-cursor-target" id=3D"InformationNeedsoftheEnterprise-Data=
+WillbeGoverned"><span style=3D"color: rgb(255,255,255);">Data Will be Gover=
+ned</span></h4>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey">Data Will be Governed</td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><p=
+><span>Each data element has a trustee accountable for data quality.</span>=
+</p></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey"><p=
+><span>One of the benefits of an architected environment is the ability to =
+share data across the enterprise. As the degree of data sharing grows and b=
+usiness units rely upon common information, it becomes essential that only =
+the data trustee makes decisions about the content of data. &nbsp;Since dat=
+a can lose its integrity when it is entered multiple times, the data truste=
+e will have sole responsibility for data entry which eliminates redundant h=
+uman effort and data storage resources. </span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>Real trusteeship dissolves the data =E2=80=98=E2=80=98ownership=
+=E2=80=99=E2=80=99 issues and allows the data to be available to meet all u=
+sers=E2=80=99 needs. This implies that a cultural change from data =E2=80=
+=98=E2=80=98ownership=E2=80=99=E2=80=99 to data =E2=80=98=E2=80=98trusteesh=
+ip=E2=80=99=E2=80=99 may be required</span></li>
+<li><span>The data trustee will be responsible for meeting quality requirem=
+ents levied upon the data for which the trustee is accountable</span></li>
+<li><span>It is essential that the trustee has the ability to provide user =
+confidence in the data based upon attributes such as =E2=80=98=E2=80=98data=
+ source=E2=80=99=E2=80=99</span></li>
+<li><span>It is essential to identify the true source of the data in order =
+that the data authority can be assigned this trustee responsibility. This d=
+oes not mean that classified sources will be revealed nor does it mean the =
+source will be the trustee</span></li>
+<li><span>Information should be captured electronically once and immediatel=
+y validated as close to the source as possible. Quality control measures mu=
+st be implemented to ensure the integrity of the data</span></li>
+<li><span>As a result of sharing data across the enterprise, the trustee is=
+ accountable and responsible for the accuracy and currency of their designa=
+ted data element(s) and, subsequently, must then recognize the importance o=
+f this trusteeship responsibility</span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+<h4 class=3D"auto-cursor-target" id=3D"InformationNeedsoftheEnterprise-Data=
+ConsistencyandIntegrity"><span style=3D"color: rgb(255,255,255);">Data Cons=
+istency and Integrity</span></h4>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey">Data Consistency and Integrity</td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><p=
+><span>We will ensure that &nbsp;the data they use is consistent across the=
+ application and with the system of record for the data, and alert or take =
+other corrective action when it is not.</span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">
+<ul>
+<li><span>Most applications need to use data created by other applications =
+to implement the required business capabilities</span></li>
+<li><span>It is also often the case that applications make their own copies=
+ of that data, often transforming it in the process with additional busines=
+s logic</span></li>
+<li><span>If the data in an application is not consistent with the system o=
+f record for that data, the data produced by the application may not be cor=
+rect</span></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>Systems of record will need to be identified for each piece of da=
+ta</span></li>
+<li><span>Applications will need to implement mechanisms to validate the co=
+nsistency of their data with the system of record and alert or take other c=
+orrective action in the event it is not consistent</span></li>
+<li><span> Building these mechanisms into applications will increase the in=
+itial cost of development</span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+<h4 class=3D"auto-cursor-target" id=3D"InformationNeedsoftheEnterprise-Mini=
+mizeDataMovement"><span style=3D"color: rgb(255,255,255);">Minimize Data Mo=
+vement</span></h4>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey">Minimize Data Movement</td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><p=
+><span>We will minimize custom developed movements of data to provide cachi=
+ng , improved availability or horizontal scalability. We will &nbsp;rely on=
+ commercially available products to provide these capabilities. </span></p>=
+</td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">
+<ul>
+<li><span>Many &nbsp;applications have a requirement for the caching of com=
+monly used data in order to improve performance or to create copies of data=
+ to improve availability or horizontal scalability</span></li>
+<li><span>Every custom developed movement of data introduces the risk of da=
+ta inaccuracy and inconsistency and results in additional work</span></li>
+<li><span>There are commercially available solutions that provide these cap=
+abilities so there is no need to custom develop them. These products automa=
+tically manage the movement of data behind the scenes to provide the requir=
+ed data availability and performance</span></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>We will need to acquire technical products that provide these cap=
+abilities</span></li>
+<li><span>Solutions using custom developed movements of data will be evalua=
+ted to determine whether they should be replaced with the use of commercial=
+ly available products </span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+<h2 class=3D"auto-cursor-target" id=3D"InformationNeedsoftheEnterprise-Data=
+WillbeManaged"><span style=3D"color: rgb(255,255,255);">Data Will be Manage=
+d&nbsp;</span></h2>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey">Data Will be Managed&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><p=
+><span>We will manage data throughout its lifecycle including planning, col=
+lection, assurance, description, preservation, discovery, integration, anal=
+ysis, archiving, and retirement.&nbsp;</span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">
+<ul>
+<li><span>Goal is to ensure optimal application performance and archiving o=
+f historical data to manage data growth while ensuring access to both produ=
+ction and archived data</span></li>
+<li><span>A systematic approach for data management provides a high level o=
+f assurance that, across the longitudinal data lifecycle for all records, t=
+he data is accurate, consistent, accessible, trustworthy and reliable</span=
+></li>
+<li><span>Increasingly data generated by an organization needs to be combin=
+ed with externally sourced data and that data requires curation before use<=
+/span></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>We will persist data in the most appropriate structure for its in=
+tended use</span></li>
+<li><span>We will define and enforce data retention policies </span></li>
+<li><span>We will implement mechanisms to archive data</span></li>
+<li><span>We will describe data using appropriate metadata so that it can b=
+e discovered</span></li>
+<li><span>We will curate externally sourced data to determine its provenanc=
+e, validity (valid use), and quality before use</span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+<h3 class=3D"auto-cursor-target" id=3D"InformationNeedsoftheEnterprise-Data=
+Structures"><span style=3D"color: rgb(255,255,255);">Data Structures</span>=
+</h3>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey">Data Structures&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><p=
+><span><span>We will persist data in the data structure and location most a=
+ppropriate for its intended use. </span>&nbsp;</span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">
+<ul>
+<li><span>Most structured data is stored in relational databases today</spa=
+n></li>
+<li><span>There are other data structures available today such as Document =
+Oriented Databases or Graph Databases that store data differently and are b=
+etter suited for certain use cases</span></li>
+<li><span>There is an increasing amount of semi-structured and non-structur=
+ed data that the business needs in order to make more intelligent decisions=
+</span></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>We will need to support NoSQL databases such as Document Oriented=
+ Databases and Graph Databases</span></li>
+<li><span>We will need to develop usage guidelines for each to make sure th=
+e most appropriate data stores are used for each kind of data</span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+<h3 class=3D"auto-cursor-target" id=3D"InformationNeedsoftheEnterprise-Data=
+Retention"><span style=3D"color: rgb(255,255,255);">Data Retention</span></=
+h3>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey">Data Retention&nbsp;&nbsp;</td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><p=
+><span>Data subject areas, and applications, should have well defined reten=
+tion policy, or records retention policy, for retaining information for ope=
+rational or regulatory compliance needs.</span><span><span>&nbsp;</span>&nb=
+sp;</span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey"><p=
+><span>A data retention policy must consider the value of data over time an=
+d the data retention laws an organization may be subject to.</span></p></td=
+>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>Organize information so it can be searched and accessed at a late=
+r date</span></li>
+<li><span>Dispose of information that is no longer needed</span></li>
+<li><span>Use a repeatable and predictable process to purge data</span></li=
+>
+<li><span>Various types of information are held for different lengths of ti=
+me</span></li>
+<li><span>When a protected data age exceeds that of the applicable data ret=
+ention policy, the record needs to be disposed of properly</span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+<h4 class=3D"auto-cursor-target" id=3D"InformationNeedsoftheEnterprise-Data=
+Archival"><span style=3D"color: rgb(255,255,255);">Data Archival</span></h4=
+>
+<div class=3D"panel" style=3D"border-color: #045FB4;border-width: 1px;">
+<div class=3D"panelContent">=20
+<div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col style=3D"width: 87.0px;">
+<col style=3D"width: 1024.0px;">
+</colgroup>
+<tbody>
+<tr>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><strong>Name</strong></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey">Data Archival&nbsp; &nbsp;</td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">St=
+atement</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue"><p=
+><span>Applications will have the ability to archive data that is no longer=
+ frequently used, moving it to an environment where it is stored in case it=
+ is needed again in an active production environment, and the removal of th=
+is data from all active production environments. Applications will provide =
+mechanisms to restore data to the active production environment when needed=
+.</span></p></td>
+</tr>
+<tr>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">Ra=
+tionale</td>
+<td class=3D"highlight-grey confluenceTd" data-highlight-colour=3D"grey">
+<ul>
+<li><span>The failure to archive data results in inefficient system process=
+ing =E2=80=93 backups and restores take longer to execute which affects bat=
+ch windows and availability SLAs</span></li>
+<li><span>Response time can be affected if the data sets are very large</sp=
+an></li>
+<li><span>Preparation of data for analysis takes longer to execute over lar=
+ge datasets</span></li>
+<li><span>Sometimes archived data becomes relevant again to the organizatio=
+n and needs to be brought back to primary data stores for additional proces=
+sing</span></li>
+</ul></td>
+</tr>
+<tr>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">Im=
+plication</td>
+<td class=3D"highlight-blue confluenceTd" data-highlight-colour=3D"blue">
+<ul>
+<li><span>A data archival policy will need to be written defining how long =
+data will need to be retained in primary processing data stores</span></li>
+<li><span>Applications will need to provide the ability to archive data</sp=
+an></li>
+<li><span>Applications will need to provide the ability to restore data fro=
+m archive</span></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
+</div>=20
+</div>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_568_1057282080.1522586074959
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/8d5a47d567577769b54f820912548766
+
+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
+------=_Part_568_1057282080.1522586074959--

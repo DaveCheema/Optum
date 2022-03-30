@@ -1,0 +1,440 @@
+Message-ID: <650166301.603.1522587345344.JavaMail.confluence@2a9f0614ddad>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_602_1318892733.1522587345344"
+
+------=_Part_602_1318892733.1522587345344
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Zero Trust Networking-Security</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Zero Trust Networking-Security</h1>
+    <div class=3D"Section1">
+        <div class=3D"panel" style=3D"border-color: #086A87;border-style: s=
+olid;border-width: 1px;">
+<div class=3D"panelHeader" style=3D"border-bottom-width: 1px;border-bottom-=
+style: solid;border-bottom-color: #086A87;background-color: #086A87;color: =
+white;">
+<b>WHAT IS ZERO TRUST NETWORKING?</b>
+</div>
+<div class=3D"panelContent">=20
+<p>Zero trust (ZT) networking means removing trusted network zones and trea=
+ting every host as potentially compromised. &nbsp;the underlying philosophy=
+ of ZT is that everything is a potential risk. <span style=3D"color: rgb(10=
+2,102,102);">Any system or user that interacts with your data must be consi=
+dered possibly malicious.&nbsp; The local corporate network is now consider=
+ed as dangerous as the internet, and sensitive data is always at risk.</spa=
+n></p>
+<p>ZT networking takes the security controls typically found at the Interne=
+t edge or between zones and makes them available at each host. &nbsp;Instea=
+d of one enforcement point at the perimeter of networks, three complimentar=
+y enforcement points are used: at the perimeter, in the hypervisor, and on =
+the host.</p>=20
+</div>
+</div>
+<div class=3D"panel" style=3D"border-color: #086A87;border-style: solid;bor=
+der-width: 1px;">
+<div class=3D"panelHeader" style=3D"border-bottom-width: 1px;border-bottom-=
+style: solid;border-bottom-color: #086A87;background-color: #086A87;color: =
+white;">
+<b>HOW IS THE ZERO TRUST NETWORK DESIGNED?</b>
+</div>
+<div class=3D"panelContent">=20
+<p class=3D"auto-cursor-target"><span><span style=3D"color: rgb(0,0,0);"><s=
+pan class=3D"confluence-embedded-file-wrapper confluence-embedded-manual-si=
+ze"><img class=3D"confluence-embedded-image confluence-external-resource" a=
+lt=3D"Products.png" height=3D"485" width=3D"624" src=3D"https://lh3.googleu=
+sercontent.com/6DmaLFWRmmPzuYW-Sv0vYZoV4i01DigF3n85Ba8tKpBGd5lhOFX8B0SnLEsh=
+shyqYwS3qDUxxWqjPhYKb3EZaRD5svTR4z-jxU08I9XANot-z3NU_gFtwW8YHaGuZDePcd5hKCN=
+Z" data-image-src=3D"https://lh3.googleusercontent.com/6DmaLFWRmmPzuYW-Sv0v=
+YZoV4i01DigF3n85Ba8tKpBGd5lhOFX8B0SnLEshshyqYwS3qDUxxWqjPhYKb3EZaRD5svTR4z-=
+jxU08I9XANot-z3NU_gFtwW8YHaGuZDePcd5hKCNZ"></span></span></span></p>
+<div class=3D"panel" style=3D"border-color: #086A87;border-style: solid;bor=
+der-width: 1px;">
+<div class=3D"panelHeader" style=3D"border-bottom-width: 1px;border-bottom-=
+style: solid;border-bottom-color: #086A87;background-color: #086A87;color: =
+white;">
+<b>PRINCIPLES &amp; GOALS</b>
+</div>
+<div class=3D"panelContent">=20
+<p><span style=3D"color: rgb(0,0,0);">The principles and goals of a Zero Tr=
+ust Networking strategy are as follows.</span></p>
+<ol>
+<li style=3D"list-style-type: decimal;"><p>DO NOT trust anything. Implicitl=
+y or explicitly trust no user, device, IP address, system, location, or oth=
+er entity completely. There is NO security perimeter (trusted zone).&nbsp;<=
+/p></li>
+<li style=3D"list-style-type: decimal;"><p>A role-based, least privilege, a=
+pproach to security is best practice.</p></li>
+<li>Document communications requirements of the application, users, monitor=
+ing systems, or other entities within the system.</li>
+<li style=3D"list-style-type: decimal;"><p>Automated configuration and cent=
+ralized management of security settings ensures consistency and compliance =
+to standards.</p></li>
+<li style=3D"list-style-type: decimal;"><p>Multiple layers of enforcement p=
+rotects against compromise of any single, and potentially multiple, securit=
+y features.</p></li>
+<li style=3D"list-style-type: decimal;"><p>Security based on roles and resp=
+onsibilities, rather than static IP addresses, provides a more dynamic and =
+flexible architecture.</p></li>
+</ol>=20
+</div>
+</div>
+<h1 class=3D"auto-cursor-target" id=3D"ZeroTrustNetworking-Security-Complim=
+entaryEnforcementPoints">Complimentary Enforcement Points</h1>
+<h2 id=3D"ZeroTrustNetworking-Security-InternetEdgeEnforcement"><strong>Int=
+ernet Edge Enforcement</strong></h2>
+<p><span style=3D"color: rgb(0,0,0);">The Internet edge is upgraded from a =
+legacy firewall to a next-gen firewall (NGFW). &nbsp;A NGFW combines tradit=
+ional firewall functionality with capabilities previously provided by separ=
+ate systems. &nbsp;Some of these capabilities are:</span></p>
+<ul>
+<li style=3D"list-style-type: disc;"><p><span>Layer 3/4 stateful firewall</=
+span></p></li>
+<li style=3D"list-style-type: disc;"><p><span>Intrusion Detection and Preve=
+ntion Systems (IDPS)</span></p></li>
+<li style=3D"list-style-type: disc;"><p><span>Anti-malware</span></p></li>
+<li style=3D"list-style-type: disc;"><p><span>Data Loss Prevention (DLP)</s=
+pan></p></li>
+<li style=3D"list-style-type: disc;"><p><span>Web content filtering</span><=
+/p></li>
+<li style=3D"list-style-type: disc;"><p><span>Zero-day protection</span></p=
+></li>
+</ul>
+<p><span style=3D"color: rgb(0,0,0);">A NGFW also has these new abilities t=
+hat are neither available on legacy firewalls nor provided by other systems=
+:</span></p>
+<ul>
+<li style=3D"list-style-type: disc;"><p><span>Ability to look inside commun=
+ications and identify applications by the content of the data, rather than =
+just by port number.</span></p></li>
+<li style=3D"list-style-type: disc;"><p><span>Ability to identify traffic b=
+ased on the user to IP address mapping, and enforce policies based on speci=
+fic user or group membership.</span></p></li>
+<li style=3D"list-style-type: disc;"><p><span>Integrated Application Progra=
+mming Interface (API) that allows dynamic identification of systems based o=
+n the application and role of the system within that application.</span></p=
+></li>
+</ul>
+<p><span style=3D"color: rgb(0,0,0);">In addition to the NGFW, a Web Applic=
+ation Firewall (WAF) will be added that will protect web servers from commo=
+n vulnerabilities. &nbsp;The Internet edge also consists of our remote acce=
+ss systems, which consists of XenApp and XenDesktop and utilize RSA Tokens =
+or OneClick certificates for NAC.</span></p>
+<p><span style=3D"color: rgb(0,0,0);">JM Family selected Palo Alto Networks=
+ for our NGFW after a comprehensive process in which we considered all of t=
+he major vendors. &nbsp;We are still investigating WAF solutions, and will =
+likely start testing later this year.</span></p>
+<h2 id=3D"ZeroTrustNetworking-Security-HypervisionEnforcement"><strong><spa=
+n style=3D"color: rgb(0,0,0);">Hypervision Enforcement</span></strong></h2>
+<p><span style=3D"color: rgb(0,0,0);">The hypervisor enforcement is somethi=
+ng new that we have not done before at JM Family. &nbsp;Using technology su=
+ch as VMware NSX in our new Mesa data center, we can provide the same capab=
+ilities of a legacy firewall down to individual hosts. &nbsp;This is effect=
+ively micro-segmentation, and is a key component of a zero trust network. &=
+nbsp;In public clouds, the same capability is present, and called Security =
+Groups in AWS and Network Access Lists (ACLs) in Microsoft Azure.</span></p=
+>
+<p><span style=3D"color: rgb(0,0,0);">We are researching additional capabil=
+ities that will provide NGFW functionality at each host. &nbsp;Palo Alto Ne=
+tworks, as well as most of the major NGFW vendors, have hypervisor modules =
+that plug into the VMware NSX system to provide these capabilities. &nbsp;A=
+fter we fully test the interoperability we will be implementing a solution =
+in our new data centers. &nbsp;This type of technology is not currently ava=
+ilable in public cloud environments. &nbsp;However, we will be examining an=
+y new features available in the future, and supplementing the capabilities =
+on the hosts in all environments as detailed below.</span></p>
+<h2 id=3D"ZeroTrustNetworking-Security-HostEnforcement"><strong><span style=
+=3D"color: rgb(0,0,0);">Host Enforcement</span></strong></h2>
+<p><span style=3D"color: rgb(0,0,0);">On the host, we will be supplementing=
+ the protection we currently deploy with new and upgraded capabilities. &nb=
+sp;In a zero trust network the host has the following components:</span></p=
+>
+<ul>
+<li style=3D"list-style-type: disc;"><p><span>Layer 3/4 firewall</span></p>=
+</li>
+<li style=3D"list-style-type: disc;"><p><span>DLP agent</span></p></li>
+<li style=3D"list-style-type: disc;"><p><span>Anti-malware agent</span></p>=
+</li>
+<li style=3D"list-style-type: disc;"><p><span>IDPS agent</span></p></li>
+</ul>
+<p><span style=3D"color: rgb(0,0,0);">You will notice that these are some o=
+f the same capabilities available in the NGFW at the perimeter and at the h=
+ypervisor are present on the host. &nbsp;This is a multi-layered approach t=
+hat helps ensure that a failure in one system does not open systems to comp=
+romise. &nbsp;This has a potential drawback in increasing the complexity of=
+ a system. &nbsp;However, with automation and configuration management tool=
+s we avoid the management issue of configuring the same rules at multiple l=
+ayers.</span></p>
+<h2 id=3D"ZeroTrustNetworking-Security-Cloud/SaaSSystems"><strong><span sty=
+le=3D"color: rgb(0,0,0);">Cloud/SaaS Systems</span></strong></h2>
+<p><span style=3D"color: rgb(0,0,0);">Outside of our systems, whether in th=
+e public cloud Infrastructure as a Service (IaaS) environments like AWS and=
+ Azure, or the internal private clouds we are building, there are other sys=
+tems. &nbsp;These fall in the category of Software as a Service (SaaS) and =
+sometimes just referred to as =E2=80=9CCloud Services.=E2=80=9D &nbsp;&nbsp=
+;Examples of these systems are ServiceNow, <a href=3D"http://Salesforce.com=
+" class=3D"external-link" rel=3D"nofollow">Salesforce.com</a>, and similar =
+services in which we do not host, manage, or maintain the systems.</span></=
+p>
+<p><span style=3D"color: rgb(0,0,0);">We are currently investigating soluti=
+ons to monitor these services, and particularly the content stored in the s=
+ystems, so that no confidential information that we do not want stored in t=
+he systems are in fact contained within the systems. &nbsp;This is importan=
+t for information such as social security numbers, credit card numbers, etc=
+.</span></p>=20
+</div>
+</div>
+<div class=3D"panel" style=3D"border-color: #086A87;border-style: solid;bor=
+der-width: 1px;">
+<div class=3D"panelHeader" style=3D"border-bottom-width: 1px;border-bottom-=
+style: solid;border-bottom-color: #086A87;background-color: #086A87;color: =
+white;">
+<b>ARE THERE ADDITIONAL SECURITY MANAGEMENT CONSIDERATIONS? </b>
+</div>
+<div class=3D"panelContent">=20
+<p><span style=3D"color: rgb(0,0,0);">Outside of enforcement points, we als=
+o have existing and planned security management solutions. &nbsp;These incl=
+ude categories such as:</span></p>
+<ul>
+<li style=3D"list-style-type: disc;"><p><span>Security Information and Even=
+t Management (SIEM) that collects security related events and performs corr=
+elation to detect possible intrusions or abnormal behavior.</span></p></li>
+<li style=3D"list-style-type: disc;"><p><span>Static Code Analysis that sca=
+ns code or configurations for best practices and adherence to standards.</s=
+pan></p></li>
+<li style=3D"list-style-type: disc;"><p><span>Dynamic penetration testing t=
+o find systems or services that are vulnerable to exploitation and compromi=
+se.</span></p></li>
+<li style=3D"list-style-type: disc;"><p><span>Configuration compliance test=
+ing to ensure systems are configured and adhere to common standards.</span>=
+</p></li>
+</ul>=20
+</div>
+</div>
+<p><br></p>
+    </div>
+</body>
+</html>
+------=_Part_602_1318892733.1522587345344--
